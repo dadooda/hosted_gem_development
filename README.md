@@ -61,7 +61,7 @@ gem "cool_gem", :path => "vendor/gems/cool_gem"
 
 
 Now you can work on `vendor/gems_dev/cool_gem` like you do on regular
-application code. Changes to the gem are **instantly available** to
+application code. Changes to the gem become **instantly available** to
 the application whenever you load your Rails environment.
 
 
