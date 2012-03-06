@@ -6,8 +6,10 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/dadooda/hosted_gem_development"
 
   # Copy these from class's description, adjust markup.
-  s.summary = %q{T O D O}
-  s.description = %q{T O D O: Lalala.}
+  s.summary = %q{Hosted gem/plugin development infrastructure}
+  s.description = %q{"Hosted" development infrastructure makes gem development easier by including them into (making them "hosted by") your live application.
+Then you update your gem's code like you update regular application code.
+}
   # end of s.description=
 
   s.files = `git ls-files`.split("\n")

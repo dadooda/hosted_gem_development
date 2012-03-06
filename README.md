@@ -8,7 +8,7 @@ Introduction
 
 Developing gems is often tricky because they act like separate projects with regard to the applications you use them in.
 
-"Hosted" development infrastructure **makes gem development easier** by including them into (make them "hosted by") your live application.
+"Hosted" development infrastructure **makes gem development easier** by including them into (making them "hosted by") your live application.
 Then you update your gem's code like you update regular application code.
 
 
