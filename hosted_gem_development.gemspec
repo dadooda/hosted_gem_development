@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "hosted_gem_development"
-  s.version = "0.0.1"
+  s.version = "0.1.0"
   s.authors = ["Alex Fortuna"]
   s.email = ["alex.r@askit.org"]
   s.homepage = "http://github.com/dadooda/hosted_gem_development"
