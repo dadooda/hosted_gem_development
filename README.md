@@ -19,7 +19,7 @@ Add to your `Gemfile`:
 
 ~~~
 gem "hosted_gem_development"
-#gem "hosted_gem_development", :git => "git://github.com/dadooda/hack_tree.git"     # Edge version.
+#gem "hosted_gem_development", :git => "git://github.com/dadooda/hosted_gem_development.git"     # Edge version.
 ~~~
 
 Install the gem:
