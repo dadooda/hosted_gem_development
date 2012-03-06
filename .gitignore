@@ -1,0 +1,11 @@
+# General Ruby.
+/.bundle
+.ref-*
+.old*
+*-old*
+/.rvmrc
+
+# Project-specific.
+/*.rb
+/doc/
+/pkg/

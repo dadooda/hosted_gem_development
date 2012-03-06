@@ -1,0 +1,29 @@
+
+Finalizing setup
+================
+
+Ensure `config/boot.rb` does this before the `Gemfile` line:
+
+    require File.expand_path("../clone_hosted_gems", __FILE__)
+
+Ensure `.gitignore` contains the following:
+
+    /vendor/gems_dev/
+    /vendor/plugins_dev/
+
+Check out the gem you are working on:
+
+    $ cd vendor/gems_dev
+    $ git clone git://github.com/author/cool_gem.git
+
+Include the gem into your `Gemfile`:
+
+    gem "cool_gem", :path => "vendor/gems/cool_gem"
+
+
+Now you can work on `vendor/gems_dev/cool_gem` like you do on regular
+application code. Changes to the gem are **instantly available** to
+the application whenever you load your Rails environment.
+
+Good luck!
+
