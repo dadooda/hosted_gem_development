@@ -11,7 +11,7 @@ verbose = STDOUT.tty?     # Verbose on TTYs, quiet otherwise.
   items = begin
     # WARNING: chdir.
     Dir.chdir("vendor/#{subject}_dev") do
-      Dir["*"].select do |fn|
+      Dir["*"].sort.select do |fn|
         File.directory?(fn) and not fn =~ /-\z/
       end
     end

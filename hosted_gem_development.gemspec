@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   # Copy these from class's description, adjust markup.
   s.summary = %q{Hosted gem/plugin development infrastructure}
   s.description = %q{"Hosted" development infrastructure makes gem development easier by including them into (making them "hosted by") your live application.
-Then you update your gem's code like you update regular application code.
-}
+Then you update your gem's code like you update regular application code.}
   # end of s.description=
 
   s.files = `git ls-files`.split("\n")
